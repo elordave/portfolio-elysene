@@ -1,0 +1,317 @@
+@import "tailwindcss";
+
+/* --- VARIABLES & THEME --- */
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary: #FF4D00;
+  --border-color: #1f1f1f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-border-grid: var(--border-color);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* --- GRID SYSTEM --- */
+
+/* Custom Grid Utility - Centered Container */
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  position: relative;
+}
+
+/* Hero section cleanup */
+.layout-grid.hero-grid {
+  border-left: none;
+  border-right: none;
+}
+.layout-grid.hero-grid > * {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+/* Background Grids - Fixed positioning */
+.layout-grid-bg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  max-width: 1400px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.layout-grid-bg > div {
+  border-right: 1px solid var(--border-color);
+}
+.layout-grid-bg > div:last-child {
+  border-right: none;
+}
+
+/* Grid Columns Helpers */
+.grid-col-1 { grid-column: span 1; }
+.grid-col-2 { grid-column: span 2; }
+.grid-col-3 { grid-column: span 3; }
+.grid-col-4 { grid-column: span 4; }
+
+.bordered-cell {
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+.bordered-cell:nth-child(4n) {
+  border-right: none;
+}
+
+/* Crosshair Decoration */
+.crosshair-corner {
+  position: relative;
+}
+.crosshair-corner::after {
+  content: '+';
+  position: absolute;
+  bottom: -8px;
+  right: -4px;
+  color: #444;
+  font-family: monospace;
+  font-weight: 300;
+  z-index: 20;
+  font-size: 16px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .layout-grid, .layout-grid-bg {
+    grid-template-columns: 1fr;
+    border-left: none;
+    border-right: none;
+  }
+  .bordered-cell {
+    border-right: none;
+  }
+  .grid-col-1, .grid-col-2, .grid-col-3, .grid-col-4 {
+    grid-column: span 1;
+  }
+  .layout-grid-bg > div {
+      border-right: none;
+  }
+}
+
+/* --- SLOT MACHINE COMPONENTS --- */
+
+/* Viewport (Fenêtre de visibilité) */
+.slot-viewport {
+  height: 1em;
+  overflow: hidden;
+  position: relative;
+  display: inline-flex;
+  vertical-align: bottom;
+}
+
+/* Strip (Bande de chiffres) */
+.slot-strip {
+  display: flex;
+  flex-direction: column;
+  /* Courbe "Soft Landing" : Accélération rapide, freinage très long et doux */
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+/* Digit (Chiffre individuel) */
+.slot-digit {
+  height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* --- TEXT HIGHLIGHT EFFECT --- */
+
+.highlight-word {
+  position: relative;
+  display: inline;
+  font-weight: 600;
+  color: inherit;
+  padding-bottom: 4px;
+}
+
+.highlight-word::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1.5px;
+  width: 0%;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgb(255, 140, 0) 0px,
+    rgb(255, 140, 0) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 12px 1.5px;
+  background-repeat: repeat-x;
+  animation: underlineLoadUnload 14s ease-in-out infinite;
+}
+
+@keyframes underlineLoadUnload {
+  0% { width: 0%; left: 0; }
+  50% { width: 100%; left: 0; }
+  100% { width: 0%; left: 100%; }
+}
+
+/* --- LUXURY UI ANIMATIONS (SLOW & SMOOTH) --- */
+
+/* 1. Slide du BAS vers le HAUT (Pour Hello World, Nom, Titre) */
+@keyframes slowSlideUp {
+  0% { opacity: 0; transform: translateY(100px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* 2. Slide de la GAUCHE vers la DROITE (Pour la Description) */
+@keyframes slowSlideFromLeft {
+  0% { opacity: 0; transform: translateX(-100px); } /* Part de la gauche */
+  100% { opacity: 1; transform: translateX(0); }    /* Arrive au centre */
+}
+
+/* 3. Slide de la DROITE vers la GAUCHE (Pour les Stats) */
+@keyframes slowSlideFromRight {
+  0% { opacity: 0; transform: translateX(100px); }  /* Part de la droite */
+  100% { opacity: 1; transform: translateX(0); }   /* Arrive au centre */
+}
+
+/* 4. Pop In with Bounce (Strict Sequential Pop) */
+@keyframes popInBounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Classes utilitaires appliquées aux éléments */
+.animate-slideUp { 
+  /* Durée 1.8s pour la lenteur + Courbe Quint Out pour la douceur extrême */
+  animation: slowSlideUp 2.5s cubic-bezier(0.2, 1, 0.3, 1) forwards; 
+  opacity: 0; 
+}
+
+.animate-slideFromLeft { 
+  animation: slowSlideFromLeft 2.5s cubic-bezier(0.2, 1, 0.3, 1) forwards; 
+  opacity: 0;
+}
+
+.animate-slideFromRight { 
+  animation: slowSlideFromRight 2.5s cubic-bezier(0.2, 1, 0.3, 1) forwards; 
+  opacity: 0;
+}
+
+.animate-pop-in {
+  /* Durée 0.6s + Courbe Spring/Bounce custom */
+  animation: popInBounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+/* Délais légèrement augmentés pour bien décomposer l'arrivée des éléments */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; } /* Pour la description */
+.delay-500 { animation-delay: 0.5s; } /* Pour la 1ère stat */
+.delay-600 { animation-delay: 0.6s; } /* Pour le chiffre 1ère stat */
+.delay-700 { animation-delay: 0.7s; } /* Pour la 2ème stat */
+.delay-800 { animation-delay: 0.8s; } /* Pour le chiffre 2ème stat */
+
+
+
+/* ... Tes autres styles ... */
+
+/* --- EXPERTISE SECTION ANIMATIONS --- */
+
+/* L'effet "GROW" : Croissance douce et majestueuse */
+@keyframes growIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.1); /* Départ à 90% de la taille */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Arrivée à 100% (pas de rebond) */
+  }
+}
+
+.animate-card-grow {
+  opacity: 0;
+  /* Durée 1s comme demandé + Courbe "Soft Landing" */
+  animation: growIn 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Styles de la carte */
+.expertise-card-container {
+  background-color: #050505;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  position: relative;
+  transition: border-color 0.4s ease;
+}
+
+.expertise-card-container:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Lumière Orange au sommet */
+.card-top-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 77, 0, 0.6), transparent);
+  box-shadow: 0 0 15px rgba(255, 77, 0, 0.3);
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  z-index: 20;
+}
+
+.expertise-card-container:hover .card-top-glow {
+  opacity: 1;
+  height: 2px;
+  box-shadow: 0 0 25px rgba(255, 77, 0, 0.6);
+}
+
+/* Grille technique */
+.tech-grid-bg {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}

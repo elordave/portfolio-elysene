@@ -1,0 +1,250 @@
+{
+  "Metadata": {
+    "title": "Consultant Senior Data Engineer & DevOps Portfolio",
+    "description": "Portfolio professionnel d'un Consultant Senior Data Engineer & DevOps"
+  },
+  "Navbar": {
+    "links": {
+      "expertise": "Expertise",
+      "missions": "Missions",
+      "about": "À propos",
+      "blog": "Blog"
+    },
+    "cta": "Réserver un appel",
+    "logoAlt": "ES Engineering Logo"
+  },
+  "Hero": {
+    "hello": "// Hello, World!",
+    "name_first": "Ely",
+    "name_last": "Sene",
+    "job": "Data Engineering & Ops",
+    "description": "Je pilote l{apos}<highlight>industrialisation</highlight> de vos flux de données et j{apos}automatise leur mise en production tout en plaçant la <highlight>sécurité</highlight> et le <highlight>monitoring</highlight> au cœur de mes interventions.",
+    "stats_1": "événements traités<br></br>en temps réel",
+    "stats_2": "Conformité et protection<br></br>des données sensibles"
+  },
+  "Expertise": {
+    "title": "// Expertise",
+    "card1": {
+      "title": "Flux & Scalabilité",
+      "accroche": "Je transforme vos flux critiques en pipelines résilients, prêts à absorber n'importe quel pic de charge.",
+      "description": "Je conçois des architectures capables de traiter des millions d'événements en temps réel. Mon approche repose sur une ingestion fluide vers des stockages optimisés."
+    },
+    "card2": {
+      "title": "Productivité & Ops",
+      "accroche": "J'automatise tout ce qui peut l'être pour accélérer vos cycles.",
+      "description": "Je déploie des environnements CI/CD robustes. Résultat : une réduction considérable du temps de résolution des incidents grâce à un monitoring avancé."
+    },
+    "card3": {
+      "title": "Data Security",
+      "accroche": "Je suis un adepte du Privacy by Design.",
+      "description": "J'implémente une sécurité granulaire pour protéger vos données les plus sensibles. Je garantis une conformité RGPD à 100% sur des volumes de plusieurs téraoctets."
+    }
+  },
+  "Missions": {
+    "title": "// Missions Réalisées",
+    "card1": {
+      "category": "Client : GEODIS",
+      "title": "Monitoring Big Data Temps Réel"
+    },
+    "card2": {
+      "category": "Client : EDF",
+      "title": "Migration Cloud & Data"
+    },
+    "card3": {
+      "category": "Co-fondateur",
+      "title": "SaaS ESG & IA Générative"
+    },
+    "card4": {
+      "category": "Client : GEODIS",
+      "title": "Gouvernance & Sécurité BI"
+    },
+    "cta": "Voir le projet"
+  },
+  "About": {
+    "title": "// À propos",
+    "certifications_count": "Certifications",
+    "stack": "Stack",
+    "stack_desc": "Multi-Cloud",
+    "grands_comptes": "Grands comptes",
+    "profileAlt": "Ely Sene",
+    "edfAlt": "EDF",
+    "geodisAlt": "Geodis",
+    "edfLabel": "EDF",
+    "geodisLabel": "Geodis",
+    "bio": "Spécialiste des environnements <emphasis>Multi-Cloud</emphasis> et <emphasis>Hybrides</emphasis>, j{apos}allie la puissance du Data Engineering à la rigueur du DevOps pour déployer des architectures scalables, auditables et résilientes.",
+    "stack_title": "Stack Technique & Méthodologie",
+    "features": {
+      "1": "<strong>Architectures Hybrides & Cloud</strong> (AWS, Azure, Cloudera).",
+      "2": "<strong>Data Engineering & Streaming</strong> (Kafka, NiFi, Spark Scala/PySpark, Hive, Iceberg).",
+      "3": "<strong>Sécurité \"By Design\" & Gouvernance</strong> (Row Level Security, Anonymisation, RGPD).",
+      "4": "<strong>DevOps & Orchestration</strong> (Ansible, Docker, Airflow, CI/CD GitLab/Azure DevOps).",
+      "5": "<strong>Méthodologie & Performance</strong> (Agile Scrum/Kanban, FinOps, DataOps)."
+    },
+    "certifications": [
+      {
+        "category": "Écosystème Dataiku (Full Stack)",
+        "items": [
+          { "name": "MLOps Practitioner", "link": "http://verify.skilljar.com/c/6qigg8vu6uuh" },
+          { "name": "Advanced Designer", "link": "http://verify.skilljar.com/c/rnnwdu9nrf2k" },
+          { "name": "Developer", "link": "http://verify.skilljar.com/c/9kxo6bx8wsv2" },
+          { "name": "ML Practitioner", "link": "http://verify.skilljar.com/c/wi9j2j5xspif" },
+          { "name": "Core Designer", "link": "http://verify.skilljar.com/c/9x3wcrszdffe" }
+        ]
+      },
+      {
+        "category": "Cloud, Data Engineering & DevOps",
+        "items": [
+          { "name": "Snowflake Data Engineering Professional", "link": "https://coursera.org/share/4b2182ae837291bfce3c46de22f01460" },
+          { "name": "Real-Time Intelligence with Microsoft Fabric", "link": "https://learn.microsoft.com/api/credentials/share/fr-fr/ElySENE-9781/1185E693C886BFAF?sharingId=B882C1676BBCF64B" },
+          { "name": "Containers & Kubernetes Essentials (IBM)", "link": "https://www.credly.com/badges/dcd8518a-aa79-484b-a2ee-fae04cef49e3/public_url" },
+          { "name": "Google Agile Essentials", "link": "https://www.credly.com/badges/7ae150ef-2122-43a0-b4f1-2cb886b61734/public_url" }
+        ]
+      }
+    ],
+    "footer_text": "Dernière réalisation majeure : Refonte complète de pipelines d{apos}ingestion.<br></br>Résultat → <accent>Débit de traitement doublé (x2)</accent> et <accent>réduction de 50%</accent> du temps de résolution d{apos}incidents."
+  },
+  "Contact": {
+    "title": "// Envoyer un message",
+    "form": {
+      "name": "Nom Prénom *",
+      "company": "Compagnie",
+      "email": "Email *",
+      "phone": "Téléphone",
+      "message": "Votre message... *",
+      "submit": "Envoyer",
+      "sending": "Envoi...",
+      "success": "Message envoyé !",
+      "error": "Erreur, réessayez."
+    },
+    "info": {
+      "title": "Concrétisons votre <br></br><accent>ambition Data</accent>",
+      "description": "Vous avez la vision, j'apporte la roadmap. Réservez 15 min pour transformer vos contraintes métier en solutions techniques scalables.",
+      "cta": "Planifier l'échange",
+      "contacts": "Contacts directs",
+      "copied": "Copié !"
+    }
+  },
+  "Footer": {
+    "logoAlt": "ES Engineering Logo",
+    "copyright": "© {year} Copyright - ES.ENGINEERING",
+    "mentions": "Mentions Légales",
+    "privacy": "Confidentialité",
+    "backToTop": "Retour en haut",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "email": "Email"
+    }
+  },
+  "Projects": {
+    "backToProjects": "Retour aux projets",
+    "contextTitle": "Contexte & Intervention",
+    "valueTitle": "Ce que je peux vous apporter",
+    "tagsTitle": "Stack Technique",
+    "meta": {
+      "client": "Client",
+      "service": "Service",
+      "industry": "Industrie",
+      "duration": "Durée"
+    },
+    "monitoring": {
+      "title": "Monitoring Big Data Temps Réel",
+      "client": "GEODIS",
+      "service": "Data Engineering & DevOps",
+      "industry": "Logistique (Supply Chain)",
+      "duration": "18 mois",
+      "role": "Data Engineer & DevOps",
+      "context": "La DSI de GEODIS manquait de visibilité sur l'utilisation réelle de ses ressources API Power BI et Graph, ce qui entraînait des coûts de licences injustifiés et une gestion réactive des incidents. J'ai conçu une plateforme d'observabilité centralisée capable d'ingérer et d'analyser ces flux en temps réel. Mon architecture hybride sur Cloudera s'appuie sur Apache Kafka et NiFi pour la capture massive des logs, couplés à Dataiku DSS pour le nettoyage et l'enrichissement sémantique des données. Ce dispositif a permis d'identifier 20% de licences inactives et d'automatiser la détection d'erreurs, réduisant ainsi de moitié le temps de résolution des incidents techniques.",
+      "value": "Je vous aide à reprendre le contrôle sur vos écosystèmes Data complexes. Je mets en place des architectures d'observabilité (via Dataiku ou Kafka) pour transformer vos logs techniques en leviers d'économies et fiabiliser vos opérations.",
+      "tags": ["Cloudera", "Dataiku", "Kafka", "NiFi", "Spark", "Iceberg", "API Integration", "Azure DevOps", "FinOps", "Real-Time"]
+    },
+    "cloud": {
+      "title": "Migration Cloud & Data",
+      "client": "EDF",
+      "service": "Data Architecture & NiFi",
+      "industry": "Énergie",
+      "duration": "Depuis Oct. 2024 (En cours)",
+      "role": "Data Engineer - Expert NiFi",
+      "context": "Le projet GEDI visait la modernisation de l'Usine Socle SI Métier par la migration de flux critiques vers le Cloud AWS, dans un environnement aux normes de sécurité strictes. L'enjeu principal résidait dans le traitement fiable de formats de données complexes lors du transfert. En tant qu'Expert NiFi, j'ai développé des pipelines d'ingestion avancés en intégrant des scripts Python et SQL directement au sein des processeurs pour gérer des règles métier que les composants standards ne couvraient pas. Cette méthode a garanti un débit optimal vers AWS Aurora PostgreSQL et permis la migration sans perte de cinq unités majeures. L'infrastructure finale repose sur AWS Fargate et intègre des processus d'anonymisation rigoureux pour assurer la continuité de service.",
+      "value": "Je conçois des pipelines d'ingestion sur-mesure pour vos données complexes. Mon expertise sur NiFi et le scripting (Python/SQL) me permet de lever les blocages techniques de vos outils ETL et de sécuriser vos migrations vers le Cloud.",
+      "tags": ["AWS", "NiFi Advanced", "Python/SQL", "PostgreSQL", "Fargate", "GitLab CI", "Agile", "Cloud Migration"]
+    },
+    "saas": {
+      "title": "SaaS ESG & IA Générative",
+      "client": "Reglight",
+      "service": "Fullstack & IA Architecture",
+      "industry": "LegalTech / SaaS",
+      "duration": "6 mois",
+      "role": "Co-fondateur & Lead Tech",
+      "context": "Face à la complexité croissante des réglementations ESG, j'ai co-fondé Reglight pour automatiser les processus de conformité des entreprises. L'objectif était de remplacer les audits manuels chronophages par une solution technologique fluide. J'ai développé l'intégralité de la plateforme SaaS en m'appuyant sur une architecture RAG (Retrieval-Augmented Generation) hébergée sur Azure. Le moteur analyse les documents juridiques pour générer des plans d'action pertinents, tout en garantissant une isolation des données entre les clients. Ce produit automatise désormais les pré-audits, ce qui permet aux consultants de se focaliser sur leur valeur ajoutée stratégique plutôt que sur la collecte de données.",
+      "value": "Je vous accompagne dans l'intégration de l'IA Générative (LLM/RAG) ou le lancement de produits SaaS. Je transforme vos concepts R&D en architectures scalables et sécurisées, prêtes pour le marché.",
+      "tags": ["GenAI", "RAG", "SaaS", "Azure OpenAI", "Product Engineering", "ESG", "Start-up"]
+    },
+    "governance": {
+      "title": "Gouvernance & Sécurité BI",
+      "client": "GEODIS",
+      "service": "Data Governance",
+      "industry": "Logistique (Transport)",
+      "duration": "8 mois",
+      "role": "Data Engineer",
+      "context": "Si des règles de sécurité étaient déjà établies pour protéger les données sensibles, le modèle existant manquait de flexibilité pour s'adapter à la complexité de toutes les unités métier. L'enjeu était de faire évoluer cette gouvernance vers une gestion multi-axes, capable d'offrir une granularité d'accès beaucoup plus fine à l'échelle du groupe. J'ai implémenté un moteur de sécurité dynamique en PySpark pour industrialiser la Row Level Security (RLS). Ce système croise désormais de multiples critères (géographiques, hiérarchiques, fonctionnels) en synchronisation avec Azure Active Directory. Cette évolution a permis d'étendre la couverture sécuritaire à l'ensemble des entités avec une meilleureprécision, garantissant une distribution de l'information parfaitement cloisonnée et automatisée.",
+      "value": "Je fais évoluer vos modèles de sécurité existants pour qu'ils suivent votre croissance. Je déploie des solutions de gouvernance dynamiques (RLS multi-axes) qui affinent la distribution de vos données et s'adaptent automatiquement à vos structures organisationnelles complexes.",
+      "tags": ["Data Governance", "PySpark", "Security", "RLS", "Azure AD", "Power BI", "Automation"]
+    }
+  },
+  "Blog": {
+    "title": "Journal & Réflexions",
+    "subtitle": "Retours d'expérience sur l'ingénierie, la data et la sécurité.",
+    "back_home": "Retour à l'accueil",
+    "back_blog": "Retour au blog",
+    "read_more": "Lire l'article"
+  },
+  "Articles": {
+    "big-data-rgpd": {
+      "title": "Big Data et RGPD : Comment concilier volume massif et protection de la vie privée ?",
+      "description": "Retour d'expérience sur l'industrialisation de la conformité (Privacy by Design) au cœur des pipelines d'ingestion Data.",
+      "date": "31 Janvier 2026",
+      "read_time": "5 min de lecture",
+      "tags": ["Data Engineering", "RGPD", "NiFi", "Iceberg"],
+      "content": {
+        "intro": "On oppose souvent le Big Data, dont la promesse repose sur l'accumulation et le croisement massif d'informations, au RGPD, qui exige minimisation et contrôle strict. Le premier veut tout garder 'au cas où', le second veut tout supprimer 'si ce n'est pas nécessaire'. Ayant travaillé sur la mise en conformité d'un Data Lake à l'échelle industrielle, je peux affirmer que ce conflit n'est pas une fatalité. Au contraire, traiter la conformité comme une brique technique, plutôt que comme une contrainte administrative, permet de construire des architectures plus robustes et plus propres. Voici un retour d'expérience sur la manière d'industrialiser la protection des données au cœur des pipelines d'ingestion.",
+        "section1_title": "L'architecture 'Privacy by Design' : Construire avant de collecter",
+        "section1_text": "Le piège classique dans les projets Data est de déverser toutes les données disponibles dans le lac (Data Lake) et de se poser la question de la conformité plus tard. C'est le meilleur moyen de créer un 'Data Swamp' ingérable, coûteux et risqué juridiquement. Pour éviter cela, il faut inverser la logique. Avant même d'écrire la première ligne de code d'un flux d'ingestion (sur Apache NiFi par exemple), le destin de la donnée doit être scellé. C'est le rôle du Contrat d'Interface. Ce document n'est pas une simple formalité administrative. C'est une analyse technique champ par champ. Cette colonne est-elle un nom ? Une adresse IP ? Un numéro de commande ? Chaque attribut reçoit un niveau de sensibilité (de 1 à 3). Si une donnée n'a pas de justification métier claire, elle n'entre tout simplement pas dans le lac. C'est l'application radicale du principe de minimisation.",
+        "section2_title": "L'arsenal technique : Au-delà de la simple suppression",
+        "section2_text": "Une fois la donnée qualifiée comme 'nécessaire', il faut la protéger sans la rendre inutilisable pour les analystes. C'est là que l'ingénierie entre en jeu. Nous ne nous contentons pas de masquer des colonnes, nous appliquons des transformations irréversibles ou contrôlées selon le besoin. Pour les données critiques où nous devons pouvoir relier des enregistrements sans exposer l'identité (comme un ID utilisateur pour des statistiques), la pseudonymisation par hachage est reine. L'utilisation d'algorithmes comme SHA-256 combinés à une clé secrète (le 'sel') rend la ré-identification mathématiquement impossible pour quiconque ne possède pas cette clé. Un autre défi technique souvent sous-estimé est le droit à l'oubli. Dans les architectures Big Data historiques (basées sur Hadoop/Hive), les données étaient souvent immuables. Supprimer une ligne spécifique au milieu de pétaoctets de données obligeait à réécrire des fichiers entiers. C'était un cauchemar en termes de performance. L'adoption de formats de table modernes comme Apache Iceberg change la donne. Cette technologie apporte les capacités transactionnelles des bases de données classiques au monde du Big Data. Elle nous permet d'effectuer des suppressions ciblées et granulaires (Row-Level Deletes), rendant le droit à l'effacement techniquement viable à grande échelle sans mettre à genoux l'infrastructure.",
+        "section3_title": "Cas concret : Le monitoring des usages internes",
+        "section3_text": "Prenons un cas d'usage fréquent en entreprise : le monitoring des outils de Business Intelligence (comme Power BI) pour optimiser les coûts de licences. L'objectif est purement financier (FinOps) : identifier les comptes inactifs pour ne pas payer pour rien. Mais les logs techniques regorgent de données personnelles : emails, adresses IP, heures de connexion. Comment surveiller l'usage sans surveiller les employés ? La réponse réside dans la segmentation du traitement dès l'ingestion : 1) L'Email : Il est indispensable pour identifier le compte à désactiver. Nous le conservons, mais son accès est verrouillé dans une 'zone de sécurité' cloisonnée. Seuls les administrateurs habilités à gérer les licences peuvent voir cette colonne. Les analystes de données, eux, ne voient qu'un identifiant haché. 2) L'Adresse IP : Elle est considérée comme une donnée personnelle indirecte. Pour analyser la performance par région, nous n'avons pas besoin de l'IP précise. Nous l'agrégeons donc géographiquement ou la supprimons dès l'entrée dans le pipeline.",
+        "conclusion_title": "La sécurité comme levier de confiance",
+        "conclusion_text": "Toute cette mécanique technique ne tiendrait pas sans une gouvernance qui lie les équipes techniques (Data Engineers) aux équipes juridiques (DPO). L'utilisation de plateformes de gestion de la conformité (comme OneTrust) permet de maintenir un registre des traitements vivant, synchronisé avec la réalité du terrain. Au final, sécuriser les données personnelles dans un Data Lake ne freine pas l'innovation. C'est même l'inverse. Les départements traditionnellement réticents à partager leurs données sensibles (comme les RH ou la Finance) acceptent de le faire lorsqu'on peut leur garantir techniquement, par le code et l'architecture, que leurs données seront cloisonnées et protégées. L'intégration du RGPD au cœur de l'ingénierie permet de passer d'une posture défensive à une posture de confiance, condition sine qua non pour exploiter tout le potentiel du Big Data."
+      }
+    }
+  },
+  "Legal": {
+    "title": "Mentions Légales",
+    "back_home": "Retour à l'accueil",
+    "editor_title": "Éditeur du site",
+    "editor_text": "Le site est édité par Ely Sene, Data Engineer & Ops.\nAdresse : Bordeaux, France.\nEmail : contact@elysene.engineering",
+    "host_title": "Hébergement",
+    "host_text": "Ce site est hébergé par Vercel Inc.\nAdresse : 340 S Lemon Ave #4133 Walnut, CA 91789, USA.\nInfrastructure Cloud sécurisée.",
+    "ip_title": "Propriété Intellectuelle",
+    "ip_text": "L'ensemble de ce site (design, textes, code) relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés."
+  },
+  "Privacy": {
+    "title": "Politique de Confidentialité",
+    "back_home": "Retour à l'accueil",
+    "intro": "En tant qu'expert en Gouvernance de données, la protection de vos informations est une priorité absolue. Je m'applique à moi-même les principes de 'Privacy by Design' que je déploie chez mes clients.",
+    "collection_title": "1. Collecte et Sous-traitants",
+    "collection_text": "Les données du formulaire (Nom, Email, Message) transitent de manière sécurisée via Brevo (fournisseur d'emailing conforme RGPD) uniquement pour l'envoi du message. Pour la prise de rendez-vous, vous êtes redirigé vers Cal.com. Aucune donnée n'est revendue à des tiers.",
+    "cookies_title": "2. Cookies & Traceurs (Pourquoi pas de bandeau ?)",
+    "cookies_text": "Vous n'avez pas vu de bandeau de consentement en arrivant ici ? C'est normal. Ce site applique une politique de 'Zéro-Traceur'. Je n'utilise aucun cookie publicitaire, ni Google Analytics. Seul un cookie technique peut être utilisé pour mémoriser votre choix de langue (FR/EN), ce qui est exempté de consentement selon les directives de la CNIL.",
+    "rights_title": "3. Vos Droits (RGPD)",
+    "rights_text": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ce droit, contactez-moi directement à : contact@elysene.engineering."
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Page introuvable",
+    "message": "Oups, il semblerait que vous soyez perdu dans le Data Lake.",
+    "back_home": "Retour à la surface"
+  }
+}
