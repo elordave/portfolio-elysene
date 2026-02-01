@@ -201,13 +201,15 @@ export default function Navbar() {
               </div>
 
               {/* CTA Button */}
-              <Link
-                href="#contact"
+              <a
+                href="https://www.cal.eu/elysene/15min"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={closeMobileMenu}
                 className="flex items-center justify-center w-full bg-white/5 border border-white/10 text-white px-6 py-4 rounded-lg font-medium text-base hover:bg-primary hover:border-primary transition-all duration-300"
               >
                 {t('cta')}
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -293,8 +295,10 @@ export default function Navbar() {
             </div>
 
             {/* Bouton Premium - Desktop */}
-            <Link
-              href="#contact"
+            <a
+              href="https://www.cal.eu/elysene/15min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:flex relative bg-black/40 backdrop-blur-sm px-7 py-3 items-center justify-center group/btn cursor-pointer border border-white/20 rounded-lg outline-none transition-colors overflow-hidden"
             >
               <span className="pointer-events-none absolute inset-0">
@@ -311,7 +315,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
 
             {/* Hamburger Menu Button - Mobile */}
             <button

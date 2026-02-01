@@ -121,7 +121,8 @@
       "description": "Vous avez la vision, j'apporte la roadmap. Réservez 15 min pour transformer vos contraintes métier en solutions techniques scalables.",
       "cta": "Planifier l'échange",
       "contacts": "Contacts directs",
-      "copied": "Copié !"
+      "copied": "Copié !",
+      "copy_email": "Copier l'adresse email"
     }
   },
   "Footer": {
@@ -155,7 +156,7 @@
       "industry": "Logistique (Supply Chain)",
       "duration": "18 mois",
       "role": "Data Engineer & DevOps",
-      "context": "La DSI de GEODIS manquait de visibilité sur l'utilisation réelle de ses ressources API Power BI et Graph, ce qui entraînait des coûts de licences injustifiés et une gestion réactive des incidents. J'ai conçu une plateforme d'observabilité centralisée capable d'ingérer et d'analyser ces flux en temps réel. Mon architecture hybride sur Cloudera s'appuie sur Apache Kafka et NiFi pour la capture massive des logs, couplés à Dataiku DSS pour le nettoyage et l'enrichissement sémantique des données. Ce dispositif a permis d'identifier 20% de licences inactives et d'automatiser la détection d'erreurs, réduisant ainsi de moitié le temps de résolution des incidents techniques.",
+      "context": "La DSI de GEODIS manquait de visibilité sur l'utilisation réelle de ses ressources API Power BI et Graph, ce qui entraînait des coûts de licences injustifiés et une gestion réactive des incidents. Pour y remédier, j'ai développé et industrialisé un pipeline de monitoring centralisé pour traiter ces données massivement et en continu. Mon architecture hybride sur Cloudera s'appuie sur Apache Kafka et NiFi pour la capture massive des logs, couplés à Dataiku DSS pour le nettoyage et l'enrichissement sémantique des données. Ce dispositif a permis d'identifier 20% de licences inactives et d'automatiser la détection d'erreurs, réduisant ainsi de moitié le temps de résolution des incidents techniques.",
       "value": "Je vous aide à reprendre le contrôle sur vos écosystèmes Data complexes. Je mets en place des architectures d'observabilité (via Dataiku ou Kafka) pour transformer vos logs techniques en leviers d'économies et fiabiliser vos opérations.",
       "tags": ["Cloudera", "Dataiku", "Kafka", "NiFi", "Spark", "Iceberg", "API Integration", "Azure DevOps", "FinOps", "Real-Time"]
     },
@@ -166,7 +167,7 @@
       "industry": "Énergie",
       "duration": "Depuis Oct. 2024 (En cours)",
       "role": "Data Engineer - Expert NiFi",
-      "context": "Le projet GEDI visait la modernisation de l'Usine Socle SI Métier par la migration de flux critiques vers le Cloud AWS, dans un environnement aux normes de sécurité strictes. L'enjeu principal résidait dans le traitement fiable de formats de données complexes lors du transfert. En tant qu'Expert NiFi, j'ai développé des pipelines d'ingestion avancés en intégrant des scripts Python et SQL directement au sein des processeurs pour gérer des règles métier que les composants standards ne couvraient pas. Cette méthode a garanti un débit optimal vers AWS Aurora PostgreSQL et permis la migration sans perte de cinq unités majeures. L'infrastructure finale repose sur AWS Fargate et intègre des processus d'anonymisation rigoureux pour assurer la continuité de service.",
+      "context": "Pour moderniser le socle technologique historique de l'entreprise, j'ai piloté le portage des flux de données critiques vers une architecture AWS sécurisée. L'enjeu principal résidait dans le traitement fiable de formats de données complexes lors du transfert. En tant qu'Expert NiFi, j'ai développé des pipelines d'ingestion avancés en intégrant des scripts Python et SQL directement au sein des processeurs pour gérer des règles métier que les composants standards ne couvraient pas. Cette méthode a garanti un débit optimal vers AWS Aurora PostgreSQL et permis la migration sans perte de cinq unités majeures. L'infrastructure finale repose sur AWS Fargate et intègre des processus d'anonymisation rigoureux pour assurer la continuité de service.",
       "value": "Je conçois des pipelines d'ingestion sur-mesure pour vos données complexes. Mon expertise sur NiFi et le scripting (Python/SQL) me permet de lever les blocages techniques de vos outils ETL et de sécuriser vos migrations vers le Cloud.",
       "tags": ["AWS", "NiFi Advanced", "Python/SQL", "PostgreSQL", "Fargate", "GitLab CI", "Agile", "Cloud Migration"]
     },

@@ -121,7 +121,8 @@
       "description": "You have the vision, I bring the roadmap. Book 15 min to transform your business constraints into scalable technical solutions.",
       "cta": "Schedule the exchange",
       "contacts": "Direct contacts",
-      "copied": "Copied!"
+      "copied": "Copied!",
+      "copy_email": "Copy email address"
     }
   },
   "Footer": {
@@ -155,7 +156,7 @@
       "industry": "Logistics (Supply Chain)",
       "duration": "18 months",
       "role": "Data Engineer & DevOps",
-      "context": "The GEODIS IT department lacked visibility into the actual usage of its Power BI and Graph API resources, leading to unjustified licensing costs and reactive incident management. I designed a centralized observability platform capable of ingesting and analyzing these flows in real-time. My hybrid architecture on Cloudera leverages Apache Kafka and NiFi for massive log capture, paired with Dataiku DSS for data cleaning and semantic enrichment. This system identified 20% of inactive licenses and automated error detection, cutting technical incident resolution time by half.",
+      "context": "The GEODIS IT department lacked visibility into the actual usage of its Power BI and Graph API resources, leading to unjustified licensing costs and reactive incident management. To solve this, I developed and industrialized a centralized monitoring pipeline to process this massive data continuously. My hybrid architecture on Cloudera leverages Apache Kafka and NiFi for massive log capture, paired with Dataiku DSS for data cleaning and semantic enrichment. This system identified 20% of inactive licenses and automated error detection, cutting technical incident resolution time by half.",
       "value": "I help you regain control over your complex Data ecosystems. I implement observability architectures (via Dataiku or Kafka) to turn your technical logs into cost-saving levers and reliable operations.",
       "tags": ["Cloudera", "Dataiku", "Kafka", "NiFi", "Spark", "Iceberg", "API Integration", "Azure DevOps", "FinOps", "Real-Time"]
     },
@@ -166,7 +167,7 @@
       "industry": "Energy",
       "duration": "Since Oct. 2024 (Ongoing)",
       "role": "Data Engineer - NiFi Expert",
-      "context": "The GEDI project aimed to modernize the Core IT Factory by migrating critical flows to the AWS Cloud within an environment subject to strict security standards. The main challenge lay in reliable processing of complex data formats during transfer. As a NiFi Expert, I developed advanced ingestion pipelines by embedding Python and SQL scripts directly within processors to handle business rules that standard components could not cover. This method ensured optimal throughput to AWS Aurora PostgreSQL and enabled the zero-loss migration of five major units. The final infrastructure relies on AWS Fargate and integrates rigorous anonymization processes to ensure service continuity.",
+      "context": "To modernize the company's historical technology stack, I led the porting of critical data flows to a secure AWS architecture. The main challenge lay in reliable processing of complex data formats during transfer. As a NiFi Expert, I developed advanced ingestion pipelines by embedding Python and SQL scripts directly within processors to handle business rules that standard components could not cover. This method ensured optimal throughput to AWS Aurora PostgreSQL and enabled the zero-loss migration of five major units. The final infrastructure relies on AWS Fargate and integrates rigorous anonymization processes to ensure service continuity.",
       "value": "I design custom ingestion pipelines for your complex data. My expertise in NiFi and scripting (Python/SQL) allows me to overcome the technical bottlenecks of your ETL tools and secure your cloud migrations.",
       "tags": ["AWS", "NiFi Advanced", "Python/SQL", "PostgreSQL", "Fargate", "GitLab CI", "Agile", "Cloud Migration"]
     },

@@ -329,6 +329,7 @@ export default function Contact() {
                 <div className="flex flex-col gap-5 items-center lg:items-start">
                   <button 
                     onClick={handleCopyEmail}
+                    aria-label={emailCopied ? t('info.copied') : t('info.copy_email')}
                     className="flex items-center gap-4 text-gray-300 hover:text-white group transition-colors duration-300 cursor-pointer"
                   >
                     <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all duration-300">

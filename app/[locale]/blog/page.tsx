@@ -1,5 +1,4 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Link } from '@/i18n/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BlogContent from '@/components/BlogContent';

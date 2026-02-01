@@ -87,8 +87,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const responseData = await brevoResponse.json().catch(() => ({}));
-    console.log('Email sent successfully:', responseData);
+    await brevoResponse.json().catch(() => ({}));
 
     return NextResponse.json(
       { success: true, message: 'Email sent successfully' },
