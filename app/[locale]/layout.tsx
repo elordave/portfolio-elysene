@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales, type Locale } from '@/i18n/routing';
+import { SpeedInsights } from "@vercel/speed-insights/next"; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -98,6 +99,9 @@ export default async function RootLayout({ children, params }: Props) {
             {children}
           </div>
         </NextIntlClientProvider>
+        
+        {/* Composant Vercel Speed Insights */}
+        <SpeedInsights />
       </body>
     </html>
   );
